@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.firstletter {
+  font-size: 5rem;
+}
+/* .navbar-position {
+  position: sticky;
+  width: 0%;
+  height: 100%;
+} */
+.heading-image img {
+  position: relative;
+  top: -1.8rem;
+  width: 100%;
+  height: 65vh;
+  /* background-repeat: no-repeat; */
+  /* opacity: 0.8; */
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+
+  /* -webkit-box-reflect: below; */
+  z-index: 1;
+}
+.headingpage {
+  height: 50rem;
+}
+.heading-image img {
+  /* height: auto; */
+}
+.heading-text {
+  z-index: 3;
+  position: relative;
+  top: -420px;
+  color: white;
+}
+.heading-text h1 {
+  margin-top: 10rem;
+}
+.heading-text p {
+  font-size: 2.5rem;
+  margin-top: 30px;
+}
+.heading-text button {
+  padding: 1rem;
+  border-radius: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 1.5rem;
+  background-color: transparent;
+  margin-bottom: 1rem;
+}
+.heading-text button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* features page */
+.features-page {
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  display: flex;
+}
+.features-page i {
+  font-weight: bold;
+  font-size: 3rem;
+  /* border: 1px solid yellow; */
+  border-radius: 100px;
+  background-color: yellow;
+  padding: 4rem;
+  border: 2px solid black;
+}
+.features-page i:hover {
+  background-color: black;
+  border: 5px solid yellow;
+  color: white;
+}
+.feature-item {
+  display: flex;
+  /* flex-direction: column; */
+  text-align: center;
+  justify-content: center;
+}
+.feature-1 {
+  display: flex;
+  /* flex-direction: column; */
+  margin-top: 5rem;
+}
+.feature-1 p {
+  text-align: center;
+  justify-content: center;
+  /* margin-top: inherit; */
+  margin-bottom: 1rem;
+  color: yellow;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+/* features page responsive */
+@media only screen and (max-width: 600px) {
+  .feature-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .feature-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding: 0;
+  }
+  .feature-1 p {
+    display: none;
+  }
+  .features-page i:hover {
+    background-color: black;
+    border: 5px solid yellow;
+    color: white;
+  }
+  .heading-text button {
+    padding: 1rem;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* margin-top: 1.5rem; */
+    background-color: transparent;
+    margin-bottom: 3rem;
+  }
+  .heading-text {
+    z-index: 3;
+    position: relative;
+    top: -460px;
+    color: white;
+  }
+}

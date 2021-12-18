@@ -1,0 +1,18 @@
+.advantage {
+  background-color: wheat;
+  margin-bottom: 2rem;
+}
+.advantage-img-item img {
+  border-radius: 100px;
+  height: 15rem;
+  width: 15rem;
+  margin-top: 2rem;
+}
+.advantage button {
+  padding: 1rem;
+  background-color: rgb(228, 73, 46);
+  border-radius: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 2rem;
+}

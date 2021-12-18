@@ -1,0 +1,25 @@
+.card {
+  background-color: yellow;
+  width: 25rem;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+.card ul {
+  list-style-type: none;
+  text-align: left;
+  background-color: white;
+  height: 18rem;
+  width: auto;
+}
+.bestseller {
+  background-color: yellow;
+  border-radius: 1rem;
+  display: inline-block;
+  padding: 1rem;
+  color: red;
+  font-weight: bold;
+  position: relative;
+  top: 5.2rem;
+}

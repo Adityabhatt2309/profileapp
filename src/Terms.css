@@ -1,0 +1,51 @@
+.Terms {
+  padding: 2rem;
+}
+.terms-div {
+  height: auto;
+  padding: 3rem;
+}
+.terms-div h3 {
+  background-color: yellow;
+  padding: 3rem;
+  border-radius: 1rem 1rem 0 0;
+}
+.terms-text {
+  background-color: wheat;
+  height: 20rem;
+  padding: 3rem;
+  text-align: left;
+  border-radius: 0 0 1rem 1rem;
+}
+button {
+  padding: 1rem;
+  background-color: red;
+  color: white;
+  border-radius: 1rem;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+button:hover {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .terms-text {
+    background-color: wheat;
+    height: 25rem;
+    padding: 3rem;
+    text-align: left;
+    border-radius: 0 0 1rem 1rem;
+  }
+}
